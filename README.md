@@ -1,10 +1,9 @@
-# BELKA: Ligand–Protein Binding Prediction
+# BELKA: Molecule–Protein Binding Prediction
 
 This repository contains our course project focused on predicting ligand–protein binding using different molecular representations and machine learning models.
 
 The project is based on the [BELKA Kaggle competition dataset](https://www.kaggle.com/competitions/leash-BELKA) and explores classical ML approaches, graph neural networks and ensemble techniques.
 
----
 
 ## Problem Description
 The goal is to predict whether a given small molecule binds to a specific protein.
@@ -16,7 +15,6 @@ This is a challenging task due to:
 
 Evaluation metric: Average Precision (AP).
 
----
 
 ## Data
 We use the BELKA dataset provided via Kaggle:
@@ -28,7 +26,6 @@ Due to dataset size, experiments are conducted on representative balanced subset
 
 > Raw data files are not included in this repository.
 
----
 
 ## Methods
 We explored several approaches:
@@ -52,7 +49,6 @@ We explored several approaches:
 - Rank-based and mean-based ensembling of best models
 - Combination of tabular models and GNN predictions
 
----
 
 ## Experiments
 Key experiments include:
